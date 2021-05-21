@@ -49,3 +49,5 @@ def Dictionary(word: str):
 
 if __name__ == "__main__":
     Usage()
+    print(Thesaurus("colic"))
+    Dictionary("colic")
