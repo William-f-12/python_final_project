@@ -82,3 +82,31 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1621653007682	geckodriver	INFO	Listening on 127.0.0.1:52338
+1621653010692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilesGEAIv"
+1621653011560	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621653014483	Marionette	INFO	Listening on port 52348
+1621653014910	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621653032467	Marionette	INFO	Stopped listening on port 52348
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621653064002	geckodriver	INFO	Listening on 127.0.0.1:52435
+1621653066941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile96JnaQ"
+1621653067480	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621653070095	Marionette	INFO	Listening on port 52444
+1621653070162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621653074425	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 1: WebGL context was lost.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 1: WebGL context was lost.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 1: WebGL context was lost.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 1: WebGL context was lost.
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://aeu.alicdn.com/waf/antidomxss_v640.js, line 1: NS_ERROR_FAILURE: 
+1621653175970	Marionette	INFO	Stopped listening on port 52444
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

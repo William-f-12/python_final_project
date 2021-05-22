@@ -1,6 +1,15 @@
 #! python3
 # Little_Game.py - a little fun game! guess the next number of the series!
 
+def Usage():
+    print("""
+Usage:
+    #1
+    Play(postion: int=6)
+
+    ==> play the game!
+    """)
+
 import random
 
 class Series():
@@ -74,6 +83,12 @@ class Series():
         return m[:position]
 
 
-if __name__ == "__main__":
+def Play(postion: int=6):
+    """play the game!"""
+
     series = Series(6)
     series.Guess()
+
+
+if __name__ == "__main__":
+    Play()
