@@ -54,7 +54,7 @@ class Series():
         g = [1]
         if position > 1:        
             while len(g) < position:
-                new = g[-1] * 8 - 1
+                new = g[-1] * 3 - 1
                 g.append(new)
 
         return g[:position]
@@ -68,7 +68,7 @@ class Series():
         m = [-1, 1]
         if position > 2:
             while len(m) < position:
-                new = max(m[-2]*-7, m[-1]*-3)
+                new = max(m[-2]*-1, m[-1]*-2)
                 m.append(new)
 
         return m[:position]
