@@ -51,5 +51,5 @@ def Mathematics(question: str):
 
 if __name__ == "__main__":
     Usage()
-    Wolfarm("integral of sin(x^2)")
-    Mathematics("affine space")
+    Wolfarm("critical point")
+    Mathematics("definition of critical point")
